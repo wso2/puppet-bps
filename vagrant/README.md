@@ -24,7 +24,7 @@ Puppet will be used as the provisioning method in Vagrant and Hiera as the confi
 
     Additionally, you can copy a sample `config.yaml` file from the `samples` folder to quickly run a particular product on Vagrant.
 
-3. Add WSO2 Base Puppet Module using following commands:
+3. Initialize and update `wso2base` submodule using following commands:
 
     ````
     git submodule init
