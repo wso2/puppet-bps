@@ -51,4 +51,4 @@ Puppet will be used as the provisioning method in Vagrant and Hiera as the confi
     vagrant up
     ````
 
-For more information refer the [wiki](https://github.com/wso2/puppet-modules/wiki) page.
+For more information refer the [wiki](https://github.com/wso2/puppet-base/wiki) page.
