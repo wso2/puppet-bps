@@ -4,7 +4,7 @@
   "author": "WSO2",
   "license": "Apache-2.0",
   "summary": "WSO2 Business Process Server Puppet module",
-  "source": "https://github.com/wso2/puppet-modules/tree/master/wso2bps",
+  "source": "https://github.com/wso2/puppet-bps.git",
   "project_page": "http://wso2.com/products/business-process-server/",
   "operatingsystem_support": [
     {
