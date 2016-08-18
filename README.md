@@ -14,21 +14,8 @@ This repository contains the Puppet Module for installing and configuring WSO2 B
 ## How to Contribute
 Follow the steps mentioned in the [wiki](https://github.com/wso2/puppet-base/wiki) to setup a development environment and update/create new puppet modules.
 
-## Add WSO2 Base Puppet Module
-
-Run the following commands to get wso2base submodule.
-
-````
-git submodule init
-git submodule update
-````
-
 ## Packs to be Copied
-
-Copy the following files to their corresponding locations.
-
-1. WSO2 Business Process Server distribution (3.5.0 or 3.5.1) to `<PUPPET_HOME>/modules/wso2bps/files`
-2. JDK 1.7_80 distribution to `<PUPPET_HOME>/modules/wso2base/files`
+Copy WSO2 Business Process Server 3.5.1 distribution to `<PUPPET_HOME>/modules/wso2bps/files`
 
 ## Running WSO2 Business Process Server in the `default` profile
 No changes to Hiera data are required to run the `default` profile.  Copy the above mentioned files to their corresponding locations and apply the Puppet Modules.
