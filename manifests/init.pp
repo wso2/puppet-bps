@@ -25,7 +25,7 @@ class wso2bps inherits wso2base {
   $ode_scheduler_thread_pool_size             = hiera('wso2::ode_scheduler_thread_pool_size')
   $scheduler_config_max_thread_pool_size      = hiera('wso2::scheduler_config_max_thread_pool_size')
   $enable_humantask_caching                   = hiera('wso2::enable_humantask_caching')
-  $activity_datasources                       = hiera('wso2::activity_datasources')
+  $activiti_datasources                       = hiera('wso2::activiti_datasources')
   $bps_datasources                            = hiera('wso2::bps_datasources')
   $taskServerCount                            = hiera('wso2::taskServerCount')
 
